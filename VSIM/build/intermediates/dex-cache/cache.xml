@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/enability/AndroidStudioProjects/vsim/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/home/enability/AndroidStudioProjects/vsim/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_d10b5cf91e25033e4963f20a26cc6c5ca6ef5b0b/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enability/AndroidStudioProjects/vsim/openCVLibrary310/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="58bad40c3e65bed0f76e5abb16863bf5cfdecc1c">
+        <dex dex="/home/enability/AndroidStudioProjects/vsim/app/build/intermediates/pre-dexed/release/classes_a26ed3efbc96c89b3625a26ae8440cafc0f81662.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/enability/AndroidStudioProjects/vsim/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f6277eb210a139817f9a79bb8c1278e587e73a97">
+        <dex dex="/home/enability/AndroidStudioProjects/vsim/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_a565d8d58548636137fe1e4a92c409067c2bad25/classes.dex" />
+    </item>
+
+</items>

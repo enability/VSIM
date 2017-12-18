@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent" 
+              android:layout_height="fill_parent"
+              android:orientation="vertical" >
+    <TextView android:id="@+id/text"
+				android:maxLines = "12"
+				android:scrollbars = "vertical"        
+			    android:layout_width="fill_parent" 
+			    android:layout_height="wrap_content"  
+			    android:singleLine="false"         
+              android:text="
+Diabetic Retinopathy (DR) Simulator.\n
+Level 1 - Macular Edema sets in (Blurring of the central field)\n
+Level 2 - Blue-Yellow deficiency (e.g. Yellow objects appear white)\n
+Level 3 - Transient red spots due to blood vessel rupture\n
+Level 4 - Proliferative DR with reduction in acuity\n
+" />
+</LinearLayout>

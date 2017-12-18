@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0000d9"
+    tools:context="com.enability.visionsimulator.MainActivity"
+    android:orientation="vertical">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="VSIM"
+                android:textColor="#FFFFFF"
+                android:id="@+id/VSIM"
+                android:layout_gravity="center"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:textSize="30dp"
+                android:layout_marginLeft="@dimen/activity_vertical_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_column="0" />
+
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Myopia"
+                android:id="@+id/tvMyopia"
+                android:layout_column="0" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View"
+                android:id="@+id/btnMyopia"
+                android:layout_column="1" />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Astigmatism"
+                android:id="@+id/tvAstigm"
+                android:layout_column="0" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View"
+                android:id="@+id/btnAstigm"
+                android:layout_column="1" />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Cataract"
+                android:id="@+id/tvCataract"
+                android:layout_column="0" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View"
+                android:id="@+id/btnCataract"
+                android:layout_column="1" />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Colourblindness"
+                android:id="@+id/tvColourBlind"
+                android:layout_column="0" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View"
+                android:id="@+id/btnColourBlind"
+                android:layout_column="1" />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Diabetic Retinopathy"
+                android:id="@+id/tvDR"
+                android:layout_column="0" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View"
+                android:id="@+id/btnDR"
+                android:layout_column="1" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Retinopathy of Prematurity"
+                android:id="@+id/tvROP"
+                android:layout_column="0" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View"
+                android:id="@+id/btnROP"
+                android:layout_column="1" />
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Cone Dystrophy"
+                android:id="@+id/tvRCD"
+                android:layout_column="0" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View"
+                android:id="@+id/btnRCD"
+                android:layout_column="1" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Ushers"
+                android:id="@+id/tvCornea"
+                android:layout_column="0" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View"
+                android:id="@+id/btnCornea"
+                android:layout_column="1" />
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>
